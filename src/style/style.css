@@ -1,0 +1,96 @@
+.button{
+    -fx-background-color:
+            #090a0c,
+            linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+            linear-gradient(rgb(0,0,103), #191d22),
+            radial-gradient(center 50% 0%, radius 100%, rgb(12, 184, 217, 0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: #d0e1e1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-border-color:rgb(118, 246, 240);
+    -fx-font-family: "monospace";
+    -fx-border-width: 0;
+    -fx-text-fill: linear-gradient(white, rgb(226, 238, 54));
+    -fx-font-size: 30px;
+    -fx-font-weight: BOLD;
+    -fx-padding: 5 20 5 20;
+    -fx-pref-height: 80px;
+    -fx-pref-width: 500px;
+}
+#green-button-style {
+    -fx-background-color:
+        linear-gradient(rgb(48, 83, 85, 0.9), #a9ff00),
+        radial-gradient(center 50% -40%, radius 200%, rgb(226, 238, 54) 45%, rgb(177, 189, 9) 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #395306;
+    -fx-font-size: 30px;
+    -fx-padding: 5 20 5 20;
+    -fx-pref-height: 60px;
+    -fx-pref-width: 500px;
+}
+
+.button:hover {
+    -fx-background-color:
+                #090a0c,
+                linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+                linear-gradient(#20262b, #191d22),
+                radial-gradient(center 50% 0%, radius 100%, rgb(158, 0, 169, 0.9), rgba(255,255,255,0));
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}
+#linear-grad-to-bottom{
+    -fx-background-color: linear-gradient(to top, #d0e1e1 70%, #1f2e2e);
+}
+#pane{
+    -fx-background-color: #000000;
+    -fx-background-image: url("images/background4.gif");
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+#grid {
+    -fx-background-color: rgb(0,0,0,0.5);
+    -fx-background-insets: 0, 20;
+    -fx-background-radius: 20%;
+    -fx-padding: 150, 0, 150, 0;
+    -fx-pref-height: 10;
+    -fx-hgap: 10;
+}
+#bg{
+    -fx-background-image: url("images/magic-circle.gif");
+    -fx-background-color: #000000;
+    -fx-background-repeat: stretch;
+    -fx-background-size: contain;
+    -fx-background-position: center center;
+}
+.text-field {
+    -fx-prompt-text-fill: #d0e1e1;
+}
+#label{
+    -fx-text-fill: linear-gradient(rgb(226, 238, 54) , rgb(12, 184, 217), rgb(158, 0, 169));
+    -fx-font-family: "monospace";
+    -fx-font-weight: BOLD;
+    -fx-font-size: 30px;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+    -fx-padding: 0,500;
+}
+
+.label{
+    -fx-text-fill: white;
+    -fx-font-weight: BOLD;
+    -fx-font-size: 50px;
+    -fx-effect: innershadow(three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+    -fx-pref-width: 1000px;
+    -fx-alignment: CENTER;
+}
+
+#scoreboard-background{
+    -fx-background-image: url("images/Scores_background.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}

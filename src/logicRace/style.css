@@ -1,0 +1,10 @@
+@import "SpeedBeast FREE.otf";
+@font-face{
+    font-family: SpeedBeast FREE;
+    src: url('Font/SpeedBeast FREE.otf');
+}
+.heading{
+    -fx-font-family: SpeedBeast FREE;
+    -fx-font-size: 200px;
+    -fx-text-fill: #383838;
+}
